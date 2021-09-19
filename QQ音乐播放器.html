@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>QQ音乐播放器</title>
+		<link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.css"/>
+		<link rel="stylesheet" type="text/css" href="./css/QQ音乐播放器.css"/>
+		<script src="./js/jQuery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./js/jquery.mCustomScrollbar.concat.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./js/player.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./js/progress.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./js/QQ音乐播放器.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="header">
+			<h1 class="logo"><a href="#"></a></h1>
+			<ul class="register">
+				<li>登录</li>
+				<li>设置</li>
+			</ul>
+		</div>
+		<div class="container">
+			<div class="container_in">
+				<div class="container_left">
+					<div class="container_left_top">
+						<span><i></i>收藏</span>
+						<span><i></i>添加到</span>
+						<span><i></i>下载</span>
+						<span><i></i>删除</span>
+						<span><i></i>清空列表</span>
+					</div>
+					<div class="container_left_down" data-mcs-theme="minimal-dark">
+						<div class="paly_list">
+							<ul >
+								 <li class="music_title">
+									<div class="music_checked"><i></i></div>
+									<div class="music_number"></div>
+									<div class="music_name">歌曲
+									</div>
+									<div class="music_player">歌手</div>
+									<div class="music_time">时长</div>
+								</li>
+								<!--<li class="music_passage">
+									<div class="music_checked"><i></i></div>
+									<div class="music_number">1</div>
+									<div class="music_name">明明就
+										<div class="list_menu">
+											<a href="javascript:;" title="播放" class="music_play1"></a>
+											<a href="javascript:;" title="添加"></a>
+											<a href="javascript:;" title="下载"></a>
+											<a href="javascript:;" title="分享"></a>
+										</div>
+									</div>
+									<div class="music_player">周杰伦</div>
+									<div class="music_time">
+										<span>03:12</span>
+										<a href="javascript:;" title="删除"></a>
+									</div>
+								</li>
+								<li class="music_passage">
+									<div class="music_checked"><i></i></div>
+									<div class="music_number">2</div>
+									<div class="music_name">稻香
+										<div class="list_menu">
+											<a href="javascript:;" title="播放"  class="music_play1"></a>
+											<a href="javascript:;" title="添加"></a>
+											<a href="javascript:;" title="下载"></a>
+											<a href="javascript:;" title="分享"></a>
+										</div>
+									</div>
+									<div class="music_player">周杰伦</div>
+									<div class="music_time">
+										<span>04:20</span>
+										<a href="javascript:;" title="删除"></a>
+									</div>
+								</li>
+								<li class="music_passage">
+									<div class="music_checked"><i></i></div>
+									<div class="music_number">1</div>
+									<div class="music_name">晴天
+										<div class="list_menu">
+											<a href="javascript:;" title="播放"></a>
+											<a href="javascript:;" title="添加"></a>
+											<a href="javascript:;" title="下载"></a>
+											<a href="javascript:;" title="分享"></a>
+										</div>
+									</div>
+									<div class="music_player">周杰伦</div>
+									<div class="music_time">
+										<span>04:15</span>
+										<a href="javascript:;" title="删除"></a>
+									</div>
+								</li>
+								<li class="music_passage">
+									<div class="music_checked"><i></i></div>
+									<div class="music_number">1</div>
+									<div class="music_name">告白气球
+										<div class="list_menu">
+											<a href="javascript:;" title="播放"></a>
+											<a href="javascript:;" title="添加"></a>
+											<a href="javascript:;" title="下载"></a>
+											<a href="javascript:;" title="分享"></a>
+										</div>
+									</div>
+									<div class="music_player">周杰伦</div>
+									<div class="music_time">
+										<span>03:12</span>
+										<a href="javascript:;" title="删除"></a>
+									</div>
+								</li>
+								<li class="music_passage">
+									<div class="music_checked"><i></i></div>
+									<div class="music_number">1</div>
+									<div class="music_name">告白气球
+										<div class="list_menu">
+											<a href="javascript:;" title="播放"></a>
+											<a href="javascript:;" title="添加"></a>
+											<a href="javascript:;" title="下载"></a>
+											<a href="javascript:;" title="分享"></a>
+										</div>
+									</div>
+									<div class="music_player">周杰伦</div>
+									<div class="music_time">
+										<span>03:12</span>
+										<a href="javascript:;" title="删除"></a>
+									</div>
+								</li>
+								<li class="music_passage">
+									<div class="music_checked"><i></i></div>
+									<div class="music_number">1</div>
+									<div class="music_name">告白气球
+										<div class="list_menu">
+											<a href="javascript:;" title="播放"></a>
+											<a href="javascript:;" title="添加"></a>
+											<a href="javascript:;" title="下载"></a>
+											<a href="javascript:;" title="分享"></a>
+										</div>
+									</div>
+									<div class="music_player">周杰伦</div>
+									<div class="music_time">
+										<span>03:12</span>
+										<a href="javascript:;" title="删除"></a>
+									</div>
+								</li>
+								<li class="music_passage">
+									<div class="music_checked"><i></i></div>
+									<div class="music_number">1</div>
+									<div class="music_name">告白气球
+										<div class="list_menu">
+											<a href="javascript:;" title="播放"></a>
+											<a href="javascript:;" title="添加"></a>
+											<a href="javascript:;" title="下载"></a>
+											<a href="javascript:;" title="分享"></a>
+										</div>
+									</div>
+									<div class="music_player">周杰伦</div>
+									<div class="music_time">
+										<span>03:12</span>
+										<a href="javascript:;" title="删除"></a>
+									</div>
+								</li>
+								<li class="music_passage">
+									<div class="music_checked"><i></i></div>
+									<div class="music_number">1</div>
+									<div class="music_name">告白气球
+										<div class="list_menu">
+											<a href="javascript:;" title="播放"></a>
+											<a href="javascript:;" title="添加"></a>
+											<a href="javascript:;" title="下载"></a>
+											<a href="javascript:;" title="分享"></a>
+										</div>
+									</div>
+									<div class="music_player">周杰伦</div>
+									<div class="music_time">
+										<span>03:12</span>
+										<a href="javascript:;" title="删除"></a>
+									</div>
+								</li>
+								<li class="music_passage">
+									<div class="music_checked"><i></i></div>
+									<div class="music_number">1</div>
+									<div class="music_name">告白气球
+										<div class="list_menu">
+											<a href="javascript:;" title="播放"></a>
+											<a href="javascript:;" title="添加"></a>
+											<a href="javascript:;" title="下载"></a>
+											<a href="javascript:;" title="分享"></a>
+										</div>
+									</div>
+									<div class="music_player">周杰伦</div>
+									<div class="music_time">
+										<span>03:12</span>
+										<a href="javascript:;" title="删除"></a>
+									</div>
+								</li>
+								<li class="music_passage"> 
+									<div class="music_checked"><i></i></div>
+									<div class="music_number">1</div>
+									<div class="music_name">告白气球
+										<div class="list_menu">
+											<a href="javascript:;" title="播放"></a>
+											<a href="javascript:;" title="添加"></a>
+											<a href="javascript:;" title="下载"></a>
+											<a href="javascript:;" title="分享"></a>
+										</div>
+									</div>
+									<div class="music_player">周杰伦</div>
+									<div class="music_time">
+										<span>03:12</span>
+										<a href="javascript:;" title="删除"></a>
+									</div>
+								</li>-->
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="container_right">
+					<div class="play_info">
+						<a href="javascript:;" class="play_back">
+							<img src="./images/player_cover.png" style="width: 180px; height: 180px;cursor: pointer;">
+						</a>
+						<div class="song_name">歌曲名称:
+							<a href="javascript:;">明明就</a>
+						</div>
+						<div class="song_player">歌手名:
+							<a href="javascript:;">周杰伦</a>
+						</div>
+						<div class="song_album">专辑名:
+							<a href="javascript:;">摩羯座</a>
+						</div>
+					</div>
+					<div class="song_title">
+						<li class="current">第一条歌词</li>
+						<li>第二条歌词</li>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footer_in">
+				<a href="javascript:;" title="上一首" class="play_previous"></a>
+				<a href="javascript:;" title="暂停/播放" class="play_pause "></a>
+				<a href="javascript:;" title="下一首" class="play_next"></a>
+				<div class="play_progress">
+					<div class="play_information">
+						<span class="play_information_name">明明就 / 周杰伦</span>
+						<span class="play_information_time">00:00 / 05:00</span>
+					</div>
+					<div class="play_progress_dashline">
+						<div class="play_progress_solidline">
+							<div class="play_progress_spot">	
+							</div>
+						</div>
+					</div>
+				</div>
+				<a href="javascript:;" class="play_model " ></a>
+				<a href="javascript:;" class="play_favorite "></a>
+				<a href="javascript:;" class="play_download"></a>
+				<a href="javascript:;" class="play_comment"></a>
+				<a href="javascript:;" class="play_only "></a>
+				<div class="play_voice_information">
+					<a href="javascript:;" class="play_voice_iconfont"></a>
+					<div class="play_voice_dashline">
+						<div class="play_voice_solidline">
+							<div class="play_voice_spot">	
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mask_bg">
+		</div>
+		<div class="mask_1">
+			
+		</div>
+		<audio src="" >
+		</audio>
+	</body>
+</html>

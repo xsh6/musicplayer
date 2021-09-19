@@ -1,0 +1,74 @@
+[
+  {
+    "name":"Peaches",
+    "singer":"Justin Bieber",
+    "album":"Poor Party Vol.2",
+    "time":"03:18",
+	"link_url":"./source/Justin Bieber,Daniel Caesar,Giveon - Peaches.mp3",
+	"music_url":"./source/Peaches.webp"
+  },
+  {
+    "name":"Yummy",
+    "singer":"Justin Bieber",
+    "album":"Poor party",
+    "time":"03:28",
+	"link_url":"./source/Justin Bieber - Yummy.mp3",
+	"music_url":"./source/Yummy.webp"
+  },
+  {
+    "name":"What do you mean?",
+    "singer":"Justin Bieber",
+    "album":"What Do You Mean?",
+    "time":"03:27",
+	"link_url":"./source/Justin Bieber - What Do You Mean？.mp3",
+	"music_url":"./source/What Do You Mean.webp"
+  },
+  {
+    "name":"Boyfriend",
+    "singer":"Justin Bieber",
+    "album":"Deja Vu Songs",
+    "time":"02:53",
+  	"link_url":"./source/Justin Bieber - Boyfriend.mp3",
+	"music_url":"./source/Boyfriend.webp"
+  },
+  {
+    "name":"As Long As You Love Me",
+    "singer":"Justin Bieber",
+    "album":"Best Hits",
+    "time":"03:49",
+  	"link_url":"./source/Justin Bieber,Big Sean - As Long As You Love Me.mp3",
+	"music_url":"./source/As Long As Love Me.webp"
+  },
+  {
+    "name":"Love Me",
+    "singer":"Justin Bieber",
+    "album":"Trending Summer Hits",
+    "time":"03:11",
+  	"link_url":"./source/Justin Bieber - Love Me.mp3",
+	"music_url":"./source/Love Me.webp"
+  },
+  {
+    "name":"Baby",
+    "singer":"Justin Bieber",
+    "album":"Baby",
+    "time":"03:36",
+  	"link_url":"./source/Justin Bieber,Ludacris - Baby.mp3",
+	"music_url":"./source/Baby.webp"
+  },
+  {
+    "name":"Love Yourself",
+    "singer":"Justin Bieber",
+    "album":"Purpose",
+    "time":"03:53",
+  	"link_url":"./source/Justin Bieber - Love Yourself.mp3",
+	"music_url":"./source/Love Yourself.webp"
+  },
+  {
+    "name":"Eenie Meenie",
+    "singer":"Justin Bieber",
+    "album":"Purpose",
+    "time":"My Worlds",
+  	"link_url":"./source/Justin Bieber,Sean Kingston - Eenie Meenie.mp3",
+	"music_url":"./source/Eenie Meenie.webp"
+  }
+]
