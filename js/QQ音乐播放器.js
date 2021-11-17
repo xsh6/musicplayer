@@ -34,7 +34,7 @@ $(function(){
 			success:function(data){  //加载成功后返回数据
 				// 遍历获取到的数据，创建每一条音乐
 				playerxsh.musicList = data;
-				console.log(data);
+				// console.log(data);
 				$.each(data,function(index,ele){
 					var $item = createMusicItem(index,ele);
 					var $musicList = $(".paly_list ul");
